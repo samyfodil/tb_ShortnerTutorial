@@ -1,0 +1,16 @@
+id: QmXxeeiCnnMxvep3xpuSNiTyZmUdvnj9XvDtWV6ww7ftGk
+description: ""
+tags: []
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /
+domains:
+    - Generated
+includes:
+    - /backend/functions/redirect.go
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: redirect

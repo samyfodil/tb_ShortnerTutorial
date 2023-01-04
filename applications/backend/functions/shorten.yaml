@@ -1,0 +1,16 @@
+id: Qmaj2fLDhuAK8xYQXgJbnbv2jN8gNUCCfC6ReLSQoJ2GDD
+description: ""
+tags: []
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /shorten
+domains:
+    - Generated
+includes:
+    - /backend/functions/shorten.go
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: shorten
