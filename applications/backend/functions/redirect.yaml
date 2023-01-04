@@ -3,7 +3,7 @@ description: ""
 tags: []
 trigger:
     type: https
-    method: POST
+    method: GET
     paths:
         - /
 domains:
